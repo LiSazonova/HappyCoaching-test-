@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Coaching</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header_container">
+            <a href="./index.html" class="logo">
+                <img src="./img/Logo.png" alt="Logo">
+            </a>
+            <div class="desktop-menu">
+                <nav class="nav">
+                    <ul class="nav_list list">
+                        <li class="nav_item"><a href="#" class="nav_link link">Home</a></li>
+                        <li class="nav_item"><a href="#" class="nav_link link">Services</a></li>
+                        <li class="nav_item"><a href="#" class="nav_link link">About us</a></li>
+                        <li class="nav_item"><a href="#" class="nav_link link">Extra Salespage</a></li>
+                    </ul>
+                </nav>
+                <button class="nav_btn" type="button">Get your free guide now</button>
+            </div>
+            <button type="button" class="menu-toggle js-open-menu" aria-expanded="false">
+                <svg class="menu-toggle__icon" width="24" height="24" aria-label="Mobile menu switch">
+                    <use class="menu-button__open" href="./img/symbol-defs.svg#icon-menu"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="mob-menu js-menu-container">
+            <div class="container">
+                <button type="button" class="menu-toggle js-close-menu">
+                    <svg class="menu-toggle__icon" width="24" height="24" aria-label="Mobile menu switch">
+                        <use class="menu-button__close" href="./img/symbol-defs.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-menu list">
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link link">Home</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link link">Services</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link link">About us</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link link">Extra Salespage</a>
+                    </li>
+                </ul>
+                <button class="nav_btn" type="button">Get your free guide now</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container hero_container">
+                <div class="hero_text">
+                    <p class="top_description">I can help you in these patricular areas.</p>
+                    <h1 class="hero_title">I help people to discover their true potential</h1>
+                    <p class="bottom_description">I help people to discover their true potential and live a fulfilling
+                        life...
+                        Discover the simple 3 steps that I discovered to hack productivity. It just works and it is
+                        begin using
+                        backed by science. Wanna transform your life?</p>
+                </div>
+                <img class="hero_img" src="./img/hero_img_min.jpeg" alt="Andrea">
+            </div>
+        </section>
+    </main>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
